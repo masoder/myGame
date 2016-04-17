@@ -15,3 +15,5 @@ merge
 git checkout master
 git pull origin master
 git branch -d test
+
+git config --global credential.helper 'cache --timeout=7200'
